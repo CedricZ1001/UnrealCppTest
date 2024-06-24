@@ -55,3 +55,15 @@ bool AMyPawn::PrintF2()
 	return false;
 }
 
+void AMyPawn::Zoom(bool Direction, float Speed)
+{
+	if (Direction)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("WheelUP"));
+	}
+	else
+	{
+		UE_LOG(LogTemp, Warning, TEXT("WheelDown"));
+	}
+}
+

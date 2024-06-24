@@ -82,4 +82,6 @@ public:
 	UPROPERTY()
 	UMyGameInstance* MyInstance; 
 
+	void Zoom(bool Direction, float Speed);
+
 };
